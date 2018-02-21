@@ -1,0 +1,10 @@
+'use strict'
+
+
+module.exports = function hello (req, res, next) {
+  res.view = 'index'
+
+  res.body = 'google-site-verification: googleb0a10e7f4520530d.html'
+
+  next()
+}
